@@ -8,7 +8,7 @@
 **Now just play with me in my page and grt some fun :joy:**
 
 -------------------------------------------------------------------------------------------------------
-
+## Author Rujeena Al-zyoud
 #### How did this go, overall? 
  *Actually it's good*
 #### What observations or questions do you have about what you’ve learned so far?
@@ -16,5 +16,5 @@
 #### How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?
 *Actually i think it  need a lot of time and Iam  done exaclly late with a lot of time*
 
-
-![aboutme](img/aboutme.png)
+-------------------------------------------------------------------------------------------
+ ![aboutme](img/aboutme.png)
