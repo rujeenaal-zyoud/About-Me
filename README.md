@@ -5,6 +5,8 @@
 -------------------------------------------------------------------------------------------------------
 
 
+*The About me gussing game it just a some of Question about me and *
+
 #### How did this go, overall? 
  *Actually it's good*
 #### What observations or questions do you have about what you’ve learned so far?

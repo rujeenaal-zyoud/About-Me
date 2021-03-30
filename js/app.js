@@ -1,25 +1,28 @@
 'use strict';
 
-var NAME = prompt("Please enter your name");
-function hi(yourname) {
-    if (NAME === null && NAME === " ") {
-        var hello = "hi ,welcome in About me webpage ";
-    }
-    else { var hello = "hi " + NAME + ",welcome in  My About me webpage"; }
+let score = 0;
 
-    alert(hello);
+
+
+
+let NAME = prompt('whats your name?');
+
+while (!NAME) {
+    NAME = prompt('please write your name');
 }
-hi(NAME);
 
-let howu = prompt('Are me happy always? /ans with (y or n)');
+
+alert('hello ' + NAME + ' welcome in My about me webpage');
+
+
+let howu = prompt('Are me happy always? ');
 howu = howu.toLowerCase();
-if (howu === 'y') {
+if (howu === 'y' || howu === 'yes') {
     //console.log('Thats great to now');
     alert('Thats great to now');
-
+score++;
 }
-
-else if (howe === 'n') {
+else if (howu === 'n' || howu === 'no') {
     //console.log('Be happy the life short :) ');
     alert(' no ,iam  happy becuase the life short :) ');
 }
@@ -34,37 +37,36 @@ let run = prompt('DO i love running in the morning?(ans with yes or no plz)');
 run = run.toUpperCase();
 console.log(run);
 
-while (run != "NO" && run != "YES") {
-    alert('plz enter yes or no')
-}
 
-if (run === 'YES') {
+if (run === 'YES' || run === 'Y') {
     //console.log('You know my age Iam happy');
     alert(' that is right You know me good');
+score++;
 }
-else if (run === "NO") {
+else if (run === "NO" || run === "N") {
     //console.log(alert('You dont know me ,but you can try :( '));
     alert('You dont know me i love running :( ');
-    run = run + 1
+
 }
-else{
-    alert("Plz ans yes or no ")
+else {
+    alert("Plz ans yes/y or no/n  ")
 }
 
 
-let movie = prompt('DO i hate the Philosophy? /answer with yes or no');
+let movie = prompt('DO i love the Philosophy? /answer with yes or no');
 movie = movie.toLowerCase();
 console.log(movie);
-if (movie === 'yes') {
+if (movie === 'yes' || movie === 'y') {
     //console.log('wow that right');
-    alert('NO ,i dont hate the philosophy');
+    alert('wow that right');
+score++;
 }
-else if (movie === 'no') {
-    //console.log('NO I dont love this moves ');
-    alert('wow ,yes i love the philosophy ');
+else if (movie === 'no' || movie === 'n') {
+    //console.log('NO I love the Philosophy  ');
+    alert('NO I love the Philosophy ');
 }
-else{
-    alert("Plz ans yes or no ")
+else {
+    alert("Plz ans yes/y or no/n ")
 }
 
 
@@ -79,6 +81,7 @@ switch (travel.toUpperCase()) {
     case 'Y':
         // console.log('Yes this my lovely color');
         alert('WOW thatis rghit');
+score++;
         break;
     case 'NO':
     case 'N':
@@ -92,32 +95,97 @@ switch (travel.toUpperCase()) {
 let meal = prompt('Iam a vegetarian or not ?')
 meal = meal.toUpperCase();
 console.log(meal);
-if (meal == 'YES') {
+if (meal == 'YES' || meal == 'Y') {
     //console.log('Yes I love rice ')
     alert('Yes true Iam vegetarian ')
+score++;
 }
-if (meal == 'NO') {
+else if (meal == 'NO' || meal == 'N') {
     // console.log('NO I am vegetarian');
     alert('NO you wrong I am vegetarian  ');
+}
+else {
+    alert('Plz ans yes/y or no/n ');
 }
 
 
 let fruit = prompt("The last question :), Do i love fruit?/answeer yes or no");
 fruit = fruit.toLowerCase();
 console.log(fruit);
-if (fruit == 'yes') {
+if (fruit == 'yes' || fruit == 'y') {
     //console.log("I dont love bannana may you love it");
     alert("Yes i love the fruit it is delicous");
+score++;
 
 }
-else if (fruit == 'no') {
+else if (fruit == 'no' || fruit == 'n') {
     //console.log('Yes i love the apple ');
     alert('NO actully i love the fruit ' + NA);
 }
-else{
-    alert("Plz ans yes or no ")
+else {
+    alert("Plz ans yes or no ");
 }
 
 
 
-alert("Thank you " + NAME + ' for visit my webpage')
+// Q6 
+
+let num = prompt('what the number in my mind  guess it?');
+num = Number(num);
+for (let i = 0; i < 4; i++) {
+    if (num === 12) {
+        alert("yes that true");
+        score++;
+        break;
+    }
+    else if (num > 12) {
+        alert("too high");
+        num = prompt('what the number in my mind  guess it?');
+
+    }
+
+    else if (num < 12) {
+
+        alert("too low");
+        num = prompt('what the number in my mind  guess it?');
+      
+    }
+
+}
+alert("The correct answer is 12 ");
+
+
+
+//Q7
+let movie = 'Okja';
+let myArr = ['Parasit', 'Okja', 'Siccin', 'Tolkien'];
+for (let i = 0; i < 6; i++) {
+    let gust = prompt('what my fav movie' );
+
+    for (let index = 0; index < myArr.length; index++) {
+        if (gust === myArr[index] ) {
+            alert('its true');
+            i=10;
+            score++;
+
+            break;
+        }
+    
+    }
+    if (i!=10) {
+        alert('plz try again');
+        
+    }
+   
+}
+
+
+alert( `my fav movie Okja   ${myArr}`);
+alert("your score"+score);
+
+
+
+
+
+
+alert("Thank you " + NAME + ' for visit my webpage');

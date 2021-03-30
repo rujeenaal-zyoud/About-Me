@@ -57,3 +57,22 @@ footer{
     text-align: center;
     margin-top: 350px;
 }
+
+dl{
+    text-align: center;
+    margin-top: 200px;
+}
+
+
+
+ol {
+    counter-reset: section;                
+    list-style-type:none;
+  }
+  
+   ol li::before {
+    counter-increment: section;      
+    content: counters(section, "-") " ";   
+                                              
+                                              
+  }
