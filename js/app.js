@@ -20,7 +20,7 @@ howu = howu.toLowerCase();
 if (howu === 'y' || howu === 'yes') {
     //console.log('Thats great to now');
     alert('Thats great to now');
-score++;
+    score++;
 }
 else if (howu === 'n' || howu === 'no') {
     //console.log('Be happy the life short :) ');
@@ -41,7 +41,7 @@ console.log(run);
 if (run === 'YES' || run === 'Y') {
     //console.log('You know my age Iam happy');
     alert(' that is right You know me good');
-score++;
+    score++;
 }
 else if (run === "NO" || run === "N") {
     //console.log(alert('You dont know me ,but you can try :( '));
@@ -59,7 +59,7 @@ console.log(movie);
 if (movie === 'yes' || movie === 'y') {
     //console.log('wow that right');
     alert('wow that right');
-score++;
+    score++;
 }
 else if (movie === 'no' || movie === 'n') {
     //console.log('NO I love the Philosophy  ');
@@ -81,7 +81,7 @@ switch (travel.toUpperCase()) {
     case 'Y':
         // console.log('Yes this my lovely color');
         alert('WOW thatis rghit');
-score++;
+        score++;
         break;
     case 'NO':
     case 'N':
@@ -98,7 +98,7 @@ console.log(meal);
 if (meal == 'YES' || meal == 'Y') {
     //console.log('Yes I love rice ')
     alert('Yes true Iam vegetarian ')
-score++;
+    score++;
 }
 else if (meal == 'NO' || meal == 'N') {
     // console.log('NO I am vegetarian');
@@ -115,12 +115,12 @@ console.log(fruit);
 if (fruit == 'yes' || fruit == 'y') {
     //console.log("I dont love bannana may you love it");
     alert("Yes i love the fruit it is delicous");
-score++;
+    score++;
 
 }
 else if (fruit == 'no' || fruit == 'n') {
     //console.log('Yes i love the apple ');
-    alert('NO actully i love the fruit ' + NA);
+    alert('NO actully i love the fruit ');
 }
 else {
     alert("Plz ans yes or no ");
@@ -148,7 +148,7 @@ for (let i = 0; i < 4; i++) {
 
         alert("too low");
         num = prompt('what the number in my mind  guess it?');
-      
+
     }
 
 }
@@ -157,35 +157,40 @@ alert("The correct answer is 12 ");
 
 
 //Q7
-let movie = 'Okja';
-let myArr = ['Parasit', 'Okja', 'Siccin', 'Tolkien'];
+
+let myArr = ['harry poter', 'Okja', 'siccin', 'tolkien'];
 for (let i = 0; i < 6; i++) {
-    let gust = prompt('what my fav movie' );
+    let gust = prompt(' gusse what my fav movie ?');
 
     for (let index = 0; index < myArr.length; index++) {
-        if (gust === myArr[index] ) {
-            alert('its true');
-            i=10;
+        if (gust === myArr[index]) {
+            alert("it's true");
+            i = 10;
             score++;
 
             break;
         }
-    
+
     }
-    if (i!=10) {
+    if (i != 10) {
         alert('plz try again');
-        
+
     }
-   
+
 }
 
-
-alert( `my fav movie Okja   ${myArr}`);
-alert("your score"+score);
-
+alert(`my fav movies   ${myArr}`);
+alert("your score is " + score + ' from 7');
 
 
 
 
 
-alert("Thank you " + NAME + ' for visit my webpage');
+alert("Thank you  " + NAME + ' for visit my webpage');
+
+
+
+
+
+
+
