@@ -47,6 +47,9 @@ else if (run === "NO") {
     alert('You dont know me i love running :( ');
     run = run + 1
 }
+else{
+    alert("Plz ans yes or no ")
+}
 
 
 let movie = prompt('DO i hate the Philosophy? /answer with yes or no');
@@ -59,6 +62,9 @@ if (movie === 'yes') {
 else if (movie === 'no') {
     //console.log('NO I dont love this moves ');
     alert('wow ,yes i love the philosophy ');
+}
+else{
+    alert("Plz ans yes or no ")
 }
 
 
@@ -107,6 +113,9 @@ if (fruit == 'yes') {
 else if (fruit == 'no') {
     //console.log('Yes i love the apple ');
     alert('NO actully i love the fruit ' + NA);
+}
+else{
+    alert("Plz ans yes or no ")
 }
 
 
