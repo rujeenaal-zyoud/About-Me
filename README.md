@@ -9,11 +9,14 @@
 
 -------------------------------------------------------------------------------------------------------
 ## Author Rujeena Al-zyoud
+---------------------------------------------------------
 ## Navigator Name: Rujeena Al-zyoud.
 ## Driver Name: Noor Hajbi.
 ## The code that we worked in was make each question inside a separate function.
-## I was Navigator on: [NavigatorLink](https://github.com/rujeenaal-zyoud/About-Me.git)
-## I was Driver on: [Driver Link](https://github.com/NoorHajbi/About-Me-1.git)
+ Rujeena : [Navigator](https://github.com/rujeenaal-zyoud/About-Me.git)
+ Noor: [Driver](https://github.com/NoorHajbi/About-Me-1.git)
+
+-----------------------------------------------------------------------------------------
 #### How did this go, overall? 
  *Actually it's good*
 #### What observations or questions do you have about what you’ve learned so far?
