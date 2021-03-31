@@ -1,5 +1,4 @@
-
-body{
+ody{
     background-color:bisque;
 }
 
@@ -18,16 +17,7 @@ color :#070404;
 
 
 }
-p{
-    font-style: oblique;
-    margin-top: 50px;
-    background-color: bisque;
-    text-align: left;
-    font-weight: bold ;
 
-    
-  
-}
 
 
     
@@ -75,4 +65,16 @@ ol {
     content: counters(section, "-") " ";   
                                               
                                               
+  }
+
+
+
+  ul li{
+ 
+  
+    border-radius: 10%;
+   
+    list-style-type:circle;
+    line-height: 25px;
+    text-align: center;
   }
