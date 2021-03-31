@@ -5,16 +5,20 @@ let score = 0;
 
 
 
-let NAME = prompt('whats your name?');
 
+
+function q1 (){
+let NAME = prompt('whats your name?');
 while (!NAME) {
     NAME = prompt('please write your name');
 }
-
-
 alert('hello ' + NAME + ' welcome in My about me webpage');
+}
+q1();
 
 
+
+function q2(){
 let howu = prompt('Are me happy always? ');
 howu = howu.toLowerCase();
 if (howu === 'y' || howu === 'yes') {
@@ -30,9 +34,10 @@ else {
     //console.log('plz choice Siccin or zompi');
     alert('plz in next time ans yes or no just. ');
 }
+}
+q2();
 
-
-
+function q3(){
 let run = prompt('DO i love running in the morning?(ans with yes or no plz)');
 run = run.toUpperCase();
 console.log(run);
@@ -51,8 +56,10 @@ else if (run === "NO" || run === "N") {
 else {
     alert("Plz ans yes/y or no/n  ")
 }
+}
+q3();
 
-
+function q4(){
 let movie = prompt('DO i love the Philosophy? /answer with yes or no');
 movie = movie.toLowerCase();
 console.log(movie);
@@ -68,7 +75,8 @@ else if (movie === 'no' || movie === 'n') {
 else {
     alert("Plz ans yes/y or no/n ")
 }
-
+}
+q4();
 
 
 
