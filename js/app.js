@@ -5,16 +5,20 @@ let score = 0;
 
 
 
-let NAME = prompt('whats your name?');
 
+
+function q1 (){
+let NAME = prompt('whats your name?');
 while (!NAME) {
     NAME = prompt('please write your name');
 }
-
-
 alert('hello ' + NAME + ' welcome in My about me webpage');
+}
+q1();
 
 
+
+function q2(){
 let howu = prompt('Are me happy always? ');
 howu = howu.toLowerCase();
 if (howu === 'y' || howu === 'yes') {
@@ -30,9 +34,10 @@ else {
     //console.log('plz choice Siccin or zompi');
     alert('plz in next time ans yes or no just. ');
 }
+}
+q2();
 
-
-
+function q3(){
 let run = prompt('DO i love running in the morning?(ans with yes or no plz)');
 run = run.toUpperCase();
 console.log(run);
@@ -51,8 +56,10 @@ else if (run === "NO" || run === "N") {
 else {
     alert("Plz ans yes/y or no/n  ")
 }
+}
+q3();
 
-
+function q4(){
 let movie = prompt('DO i love the Philosophy? /answer with yes or no');
 movie = movie.toLowerCase();
 console.log(movie);
@@ -68,11 +75,12 @@ else if (movie === 'no' || movie === 'n') {
 else {
     alert("Plz ans yes/y or no/n ")
 }
+}
+q4();
 
 
 
-
-
+function q5(){
 let travel = prompt('DO i love the travel(ans with yes or no plz) ? ')
 
 console.log(travel);
@@ -89,9 +97,10 @@ switch (travel.toUpperCase()) {
         alert('No actullay I hate stay in same place:(');
         break;
 }
+}
+q5();
 
-
-
+function q6(){
 let meal = prompt('Iam a vegetarian or not ?')
 meal = meal.toUpperCase();
 console.log(meal);
@@ -107,8 +116,10 @@ else if (meal == 'NO' || meal == 'N') {
 else {
     alert('Plz ans yes/y or no/n ');
 }
+}
+q6();
 
-
+function q7(){
 let fruit = prompt("The last question :), Do i love fruit?/answeer yes or no");
 fruit = fruit.toLowerCase();
 console.log(fruit);
@@ -125,11 +136,13 @@ else if (fruit == 'no' || fruit == 'n') {
 else {
     alert("Plz ans yes or no ");
 }
-
+}
+q7();
 
 
 // Q6 
 
+function q8(){
 let num = prompt('what the number in my mind  guess it?');
 num = Number(num);
 for (let i = 0; i < 4; i++) {
@@ -153,11 +166,12 @@ for (let i = 0; i < 4; i++) {
 
 }
 alert("The correct answer is 12 ");
-
+}
+q8();
 
 
 //Q7
-
+function q9(){
 let myArr = ['harry poter', 'Okja', 'siccin', 'tolkien'];
 for (let i = 0; i < 6; i++) {
     let gust = prompt(' gusse what my fav movie ?');
@@ -180,11 +194,9 @@ for (let i = 0; i < 6; i++) {
 }
 
 alert(`my fav movies   ${myArr}`);
+}
+q9();
 alert("your score is " + score + ' from 7');
-
-
-
-
 
 alert("Thank you  " + NAME + ' for visit my webpage');
 
