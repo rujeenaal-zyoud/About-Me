@@ -80,7 +80,7 @@ q4();
 
 
 
-funcrion q5(){
+function q5(){
 let travel = prompt('DO i love the travel(ans with yes or no plz) ? ')
 
 console.log(travel);
@@ -171,7 +171,7 @@ q8();
 
 
 //Q7
-
+function q9(){
 let myArr = ['harry poter', 'Okja', 'siccin', 'tolkien'];
 for (let i = 0; i < 6; i++) {
     let gust = prompt(' gusse what my fav movie ?');
@@ -194,11 +194,9 @@ for (let i = 0; i < 6; i++) {
 }
 
 alert(`my fav movies   ${myArr}`);
+}
+q9();
 alert("your score is " + score + ' from 7');
-
-
-
-
 
 alert("Thank you  " + NAME + ' for visit my webpage');
 
