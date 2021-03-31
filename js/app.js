@@ -142,6 +142,7 @@ q7();
 
 // Q6 
 
+function q8(){
 let num = prompt('what the number in my mind  guess it?');
 num = Number(num);
 for (let i = 0; i < 4; i++) {
@@ -165,7 +166,8 @@ for (let i = 0; i < 4; i++) {
 
 }
 alert("The correct answer is 12 ");
-
+}
+q8();
 
 
 //Q7
