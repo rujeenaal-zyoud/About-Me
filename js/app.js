@@ -80,7 +80,7 @@ q4();
 
 
 
-
+funcrion q5(){
 let travel = prompt('DO i love the travel(ans with yes or no plz) ? ')
 
 console.log(travel);
@@ -97,9 +97,10 @@ switch (travel.toUpperCase()) {
         alert('No actullay I hate stay in same place:(');
         break;
 }
+}
+q5();
 
-
-
+function q6(){
 let meal = prompt('Iam a vegetarian or not ?')
 meal = meal.toUpperCase();
 console.log(meal);
@@ -115,8 +116,10 @@ else if (meal == 'NO' || meal == 'N') {
 else {
     alert('Plz ans yes/y or no/n ');
 }
+}
+q6();
 
-
+function q7(){
 let fruit = prompt("The last question :), Do i love fruit?/answeer yes or no");
 fruit = fruit.toLowerCase();
 console.log(fruit);
@@ -133,7 +136,8 @@ else if (fruit == 'no' || fruit == 'n') {
 else {
     alert("Plz ans yes or no ");
 }
-
+}
+q7();
 
 
 // Q6 
