@@ -31,16 +31,22 @@ header nav{
 
 }
 
+
 header nav ul li{
-   
-    display: inline-block ;
+display: inline-block;
+    
 }
 
 header nav ul li a{
+    
     font-weight:bold ;
     color:beige;
     text-decoration: none;
 }
+
+
+
+
 
 footer{
     font-weight: unset;
@@ -69,12 +75,3 @@ ol {
 
 
 
-  ul li{
- 
-  
-    border-radius: 10%;
-   
-    list-style-type:circle;
-    line-height: 25px;
-    text-align: center;
-  }
