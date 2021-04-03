@@ -1,13 +1,27 @@
-ody{
+
+
+
+
+div.static {
+    position: static;
+    border: 3px solid #f3bfbf;
+  }
+
+
+body{
+
+    background-image: url("https://images.unsplash.com/photo-1554755229-ca4470e07232?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1868&q=80");
     background-color:bisque;
+
 }
 
 header{
-     
+    vertical-align: middle;
    background-color:brown;
    height: 150px;
-}
+   }
 h1{
+    font-family:'Times New Roman', Times, serif;
     font-style:italic;
     font-size: 70px;
     float: center;
@@ -16,6 +30,10 @@ text-decoration: none;
 color :#070404;
 
 
+}
+
+main ul{
+    margin-top: 20px;
 }
 
 
@@ -40,7 +58,9 @@ display: inline-block;
 header nav ul li a{
     
     font-weight:bold ;
-    color:beige;
+    font-size: large;
+    
+    color: black;
     text-decoration: none;
 }
 
@@ -52,6 +72,7 @@ footer{
     font-weight: unset;
     text-align: center;
     margin-top: 350px;
+    background-color: brown;
 }
 
 dl{
